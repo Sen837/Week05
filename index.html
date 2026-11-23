@@ -6,20 +6,24 @@
     <title>Document</title>
 </head>
 <body>
-    <table border ="1"> 
-    <tr>
-        <td>รหัสนักศึกษา</td>
-        <td>ชื่อ</td>
-        <td>สกุล</td>
-    </tr>
-    <tr>
-        <td>69123001</td>
-        <td>สมหวัง</td>
-        <td>น่าแตก</td>
-    </tr>
-</table>
-    <h1></h1>
-    <img src="" alt="">
-    <link rel="stylesheet" href="">
+    <form action="login.php" method="post">
+    ชื่อ : <input type="text" name="sen" id="hello"><br>
+    อีเมล : <input type="email" name="69143837" id="69143837@g.cmru.ac.th">
+    โทรศัพท์ : <input type="number" name="0222222222" id="0222222222">
+    </select>
+    วันเข้าร่วม :
+    <input type="datetime-local" name="day" id="day" >
+    รอบอบรม :
+    <input type="radio" name="or" id="รอบ" value="1">1<br>
+    <input type="radio" name="or" id="รอบ" value="0">2<br> 
+    หัวข้อที่น่าสนใจ :
+    <input type="checkbox" name="ปุ่มข้อความ" id="ความคิดเห็น" value="3">การเดินทางด้วยเท้าเปล่า<br>
+    <input type="checkbox" name="ปุ่มข้อความ" id="ความคิดเห็น" value="4">การขี่มอเตอร์ไซค์<br>
+    <input type="checkbox" name="ปุ่มข้อความ" id="ความคิดเห็น" value="5">การนอนเฉย<br>
+    <label for="point">คะแนนความเหมาะสม</label>
+    <input type="number" name="point" id="point" min="1" max="100" required>
+    <input type="submit" value="ส่งข้อมูล">
+    <input type="reset" value="ล้างข้อมูล">
+</form>
 </body>
 </html>
