@@ -6,9 +6,19 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="">
-    รหัสประจำตัว : <input type="text" name="sen" id="hello">
-    รหัสผ่าน : <input type="password" name="12345678" id="123">
+    <form action="login.php" method="post">
+    รหัสประจำตัว : <input type="text" name="sen" id="hello"><br>
+    รหัสผ่าน : <input type="password" name="12345678" id="123"><br>
+    <select name="netion" id="netion">
+    <option value="th">ไทย </option>
+    <option value="jp">ญี่ปุ่น</option>
+
+    </select>
+    เพศ :
+    <input type="radio" name="sex" id="sex" value="1">ชาย<br>
+    <input type="radio" name="sex" id="sex" value="0">หญิง<br>
+    <input type="submit" value="ส่งข้อมูล">
+    <input type="reset" value="ส่งข้อมูล">
 </form>
 </body>
 </html>
